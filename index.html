@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Engenharia e Segurança Patrimonial</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <header>
+    <div class="logo">
+      <img src="/img/logo.webp" alt="Logo">
+      <span>Master Engenharia</span>
+    </div>
+
+    <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+
+    <nav>
+      <ul id="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#denuncia">Denúncias</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Master Engenharia e Segurança Patrimonial Ltda</h2>
+  </section>
+
+  <section id="sobre">
+    <div class="container sobre">
+      <div>
+        <h2>Sobre a Empresa</h2>
+        <p>Nossa missão é prestar serviços com qualidade por meio de
+          Prestação de serviço de Bombeiro Profissional Civil, soluções
+          integradas limpeza e conservação, portaria, faciliteis, entre outros, cumprindo requisitos aplicáveis,
+          engajando e
+          desenvolvendo os colaboradores para a melhoria contínua dos processos e satisfação dos clientes.
+        </p>
+      </div>
+      <img src="/img/sobre nos.webp">
+    </div>
+  </section>
+
+  <section id="brigadistas">
+    <div class="container sobre">
+      <img src="/img/escola de formacao.webp" alt="Escola de Formação de Brigadistas">
+      <div>
+        <h2>Escola de Formação de Brigadistas</h2>
+        <p>Formação de Brigada de Incêndio Nrs Capacitação Continuada (Reciclagem)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="container">
+      <h2>Serviços</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="/img/manuntencao.webp">
+          <h3>Manutenção Predial</h3>
+        </div>
+
+        <div class="card">
+          <img src="/img/gestao.jpg">
+          <h3>Gestão de Facilities</h3>
+        </div>
+
+        <div class="card">
+          <img src="/img/facilities.jpg">
+          <h3>Facilities</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="cta">
+      <h2>Precisa de Segurança Profissional?</h2>
+      <p>Entre em contato agora e solicite um orçamento personalizado.</p>
+      <button onclick="scrollContato()">Falar com especialista</button>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <div class="container">
+      <h2>Galeria</h2>
+      <div class="grid galeria">
+        <img src="/img/master engenharia.webp">
+        <img src="/img/sobre nos.webp">
+        <img src="/img/escola de formacao.webp">
+      </div>
+    </div>
+  </section>
+
+  <section id="denuncia">
+    <div class="container">
+      <div class="denuncia">
+        <h2>Canal de Denúncias</h2>
+        <form onsubmit="enviarDenuncia(event)">
+          <input type="text" placeholder="Nome (opcional)">
+          <textarea placeholder="Descreva a denúncia" required></textarea>
+          <button type="submit">Enviar denúncia</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Endereço: RUA 03 CH 94 LOTE 04/09 ARENA SHOPPING SALAS 101 A 104</p>
+      <p>Email: mastersafetyeng@gmail.com</p>
+      <p>Telefone: (+55) 6135635590</p>
+      <p>Horário: Segunda a Sexta 07:00-16:00</p>
+    </div>
+  </section>
+
+  <section id="mapa">
+    <div style="width:100%;height:400px;border-radius:12px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.1)">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.2638171069743!2d-48.0122515!3d-15.7900373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3314e1f8c601%3A0x1ab1100e0e38d9af!2sMaster%20Engenharia%20e%20Seguran%C3%A7a%20Patrimonial!5e0!3m2!1spt-BR!2sbr!4v1776634873410!5m2!1spt-BR!2sbr"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <a href="https://wa.me/6135635590" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+
+  <footer>
+    <p>© 2026 Master Engenharia e Segurança Patrimonial Ltda</p>
+  </footer>
+
+  <script src="/script.js"></script>
+
+</body>
+</html>
