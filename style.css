@@ -1,246 +1,246 @@
     * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif
     }
 
     body {
-      background: #f1f1f1;
-      color: #333
+        background: #f1f1f1;
+        color: #333
     }
 
     header {
-      background: #2c2f33;
-      color: #fff;
-      padding: 15px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000
+        background: #2c2f33;
+        color: #fff;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000
     }
 
     .logo {
-      display: flex;
-      align-items: center;
-      gap: 10px
+        display: flex;
+        align-items: center;
+        gap: 10px
     }
 
     .logo img {
-      height: 40px
+        height: 40px
     }
 
     .logo span {
-      font-weight: 600
+        font-weight: 600
     }
 
     nav ul {
-      display: flex;
-      gap: 20px;
-      list-style: none
+        display: flex;
+        gap: 20px;
+        list-style: none
     }
 
     nav a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 14px
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px
     }
 
     .menu-toggle {
-      display: none;
-      font-size: 22px;
-      cursor: pointer
+        display: none;
+        font-size: 22px;
+        cursor: pointer
     }
 
     /* HERO AJUSTADO */
     .hero {
-      background: url('/img/master\ engenharia.webp') no-repeat center center;
-      background-size: cover;
-      min-height: 100vh;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: #fff;
-      position: relative;
+        background: url('/img/master\ engenharia.webp') no-repeat center center;
+        background-size: cover;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        position: relative;
     }
 
     .hero::after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      background: rgba(0, 0, 0, 0.5);
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
     }
 
     .hero h2 {
-      position: relative;
-      z-index: 2;
-      font-size: 42px;
-      padding: 25px 30px;
-      border-radius: 10px;
-      background: rgba(0, 0, 0, 0.6);
-      border-left: 5px solid #d4af37;
+        position: relative;
+        z-index: 2;
+        font-size: 42px;
+        padding: 25px 30px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.6);
+        border-left: 5px solid #d4af37;
     }
 
     section {
-      padding: 70px 20px
+        padding: 70px 20px
     }
 
     .container {
-      max-width: 1100px;
-      margin: auto
+        max-width: 1100px;
+        margin: auto
     }
 
     .sobre {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
-      align-items: center
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: center
     }
 
     .sobre img {
-      width: 100%;
-      border-radius: 12px
+        width: 100%;
+        border-radius: 12px
     }
 
     .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 25px
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px
     }
 
     .card {
-      background: #ffffff;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-      transition: 0.3s;
-      border-top: 4px solid #d4af37
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        transition: 0.3s;
+        border-top: 4px solid #d4af37
     }
 
     .card:hover {
-      transform: translateY(-6px)
+        transform: translateY(-6px)
     }
 
     .cta {
-      background: #2c2f33;
-      color: #fff;
-      text-align: center;
-      padding: 50px;
-      border-radius: 12px;
-      border-left: 6px solid #d4af37
+        background: #2c2f33;
+        color: #fff;
+        text-align: center;
+        padding: 50px;
+        border-radius: 12px;
+        border-left: 6px solid #d4af37
     }
 
     .cta button {
-      margin-top: 15px;
-      background: #d4af37;
-      color: #000;
-      border: none;
-      padding: 12px 25px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: bold
+        margin-top: 15px;
+        background: #d4af37;
+        color: #000;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold
     }
 
     .galeria img {
-      width: 100%;
-      border-radius: 12px
+        width: 100%;
+        border-radius: 12px
     }
 
     .denuncia {
-      background: #ffffff;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-      border-top: 4px solid #d4af37
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        border-top: 4px solid #d4af37
     }
 
     form {
-      display: flex;
-      flex-direction: column;
-      gap: 12px
+        display: flex;
+        flex-direction: column;
+        gap: 12px
     }
 
     input,
     textarea {
-      padding: 12px;
-      border-radius: 6px;
-      border: 1px solid #ccc
+        padding: 12px;
+        border-radius: 6px;
+        border: 1px solid #ccc
     }
 
     button {
-      background: #2c2f33;
-      color: #fff;
-      border: none;
-      padding: 12px;
-      border-radius: 6px;
-      cursor: pointer
+        background: #2c2f33;
+        color: #fff;
+        border: none;
+        padding: 12px;
+        border-radius: 6px;
+        cursor: pointer
     }
 
     button:hover {
-      background: #d4af37;
-      color: #000
+        background: #d4af37;
+        color: #000
     }
 
     .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25D366;
-      color: #fff;
-      font-size: 24px;
-      padding: 15px;
-      border-radius: 50%;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #25D366;
+        color: #fff;
+        font-size: 24px;
+        padding: 15px;
+        border-radius: 50%;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     }
 
     .card img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 8px;
-      margin-bottom: 10px;
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
     }
 
     footer {
-      background: #2c2f33;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      border-top: 3px solid #d4af37
+        background: #2c2f33;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        border-top: 3px solid #d4af37
     }
 
     @media(max-width:768px) {
-      nav ul {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background: #2c2f33;
-        padding: 10px
-      }
+        nav ul {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            right: 0;
+            background: #2c2f33;
+            padding: 10px
+        }
 
-      nav ul.active {
-        display: flex
-      }
+        nav ul.active {
+            display: flex
+        }
 
-      .menu-toggle {
-        display: block
-      }
+        .menu-toggle {
+            display: block
+        }
 
-      .sobre {
-        grid-template-columns: 1fr
-      }
+        .sobre {
+            grid-template-columns: 1fr
+        }
 
-      .hero h2 {
-        font-size: 28px
-      }
+        .hero h2 {
+            font-size: 28px
+        }
     }
