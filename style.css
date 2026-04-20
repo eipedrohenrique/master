@@ -29,7 +29,7 @@
     }
 
     .logo img {
-        height: 40px
+        height: 60px
     }
 
     .logo span {
@@ -206,6 +206,28 @@
         object-fit: cover;
         border-radius: 8px;
         margin-bottom: 10px;
+    }
+
+    .banner-curso img {
+        width: 80%;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .social {
+        margin-top: 10px;
+    }
+
+    .social a {
+        color: #d4af37;
+        font-size: 32px;
+        margin: 0 10px;
+        transition: 0.3s;
+    }
+
+    .social a:hover {
+        color: #ffffff;
+        transform: scale(1.2);
     }
 
     footer {
