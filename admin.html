@@ -1,0 +1,34 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+    <div class="login-box" id="loginBox">
+        <h2>Área Restrita</h2>
+
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="senha" placeholder="Senha">
+
+        <button onclick="login()">Entrar</button>
+    </div>
+
+    <div class="painel" id="painel" style="display:none;">
+        <div class="topo-painel">
+            <h1>Denúncias Recebidas</h1>
+            <button onclick="logout()">Sair</button>
+        </div>
+
+        <div id="listaDenuncias"></div>
+    </div>
+
+    <script type="module" src="admin.js"></script>
+
+</body>
+
+</html>
